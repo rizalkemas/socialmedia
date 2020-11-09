@@ -1,8 +1,8 @@
 <?php
 
-$db_host = "localhost";
-$db_user = "devopscilsy";
-$db_pass = "1234567890";
+$db_host = "192.168.100.4";
+$db_user = "slave";
+$db_pass = "slavepass";
 $db_name = "dbsosmed";
 
 try {    
