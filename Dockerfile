@@ -1,3 +1,4 @@
-FROM nginx
-WORKDIR /usr/share/nginx/html
+FROM rizalkemas68/sosmed:6.0
+WORKDIR /srv/app
+RUN rm -rf *
 COPY . .
